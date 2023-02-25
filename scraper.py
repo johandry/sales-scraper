@@ -112,7 +112,7 @@ class SalesScraper:
       return df.to_markdown()
 
 
-ss = SalesScraper('johandry@yahoo.com', 'NataL1nda', 
+ss = SalesScraper('<USERNAME>', '<PASSWORD>', 
                   companyNames=['salesforce', 'vmware'], 
                   fields=['Company size', 'Website', 'Headquarters', 'Industry'])
 
